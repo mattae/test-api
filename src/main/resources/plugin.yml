@@ -1,0 +1,33 @@
+description: Plugin providing elasticsearch components and capabilities to other components
+name: Elasticsearch base
+translations:
+  - lang: en
+    path: installers/elasticsearch/i18n/en.json
+  - lang: fr
+    path: installers/elasticsearch/i18n/fr.json
+  - lang: es
+    path: installers/elasticsearch/i18n/es.json
+  - lang: pt
+    path: installers/elasticsearch/i18n/pt.json
+  - lang: yo
+    path: installers/elasticsearch/i18n/yo.json
+  - lang: ig
+    path: installers/elasticsearch/i18n/ig.json
+  - lang: ha
+    path: installers/elasticsearch/i18n/ha.json
+  - lang: sw
+    path: installers/elasticsearch/i18n/sw.json
+configurationsPath: installers/elasticsearch/configuration.json
+valueSetsPath: installers/elasticsearch/value-sets.json
+menus:
+  - name: Tutorials
+    type: link
+    route: tutorials
+    icon: library_books
+webRemotes:
+  - remoteEntry: "/js/elasticsearch/remoteEntry.js"
+    remoteName: eaa79d93_436e_4fb8_bba7_04b44618697e
+    modules:
+      - name: TutorialRouting
+        routePath: tutorials
+        title: PLUGINS.TUTORIAL.TITLE
